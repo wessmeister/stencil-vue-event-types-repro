@@ -1,0 +1,108 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Build outputs
+dist/
+*/dist/
+*/*/dist/
+.stencil/
+*/.stencil/
+loader/
+*/loader/
+www/
+*/www/
+hydrate/
+*/hydrate/
+
+# Auto-generated files
+demo-stencil-lib/src/components.d.ts
+demo-vue-lib/src/components.ts
+
+# Lock files (using .npmrc package-lock=false)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.history/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.tmp/
+.temp/
+.cache/
+*.tsbuildinfo
+**/tsconfig.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Environment files
+.env.local
+.env.*.local
+
+# Claude local settings
+.claude/settings.local.json
+
+# Build info
+*.build.log
+*.build.log.map
+
+# Git (in case of accidental nested repos)
+.git/
+*/.git/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.stylelintcache
+.parcel-cache
+.next/
+.nuxt/
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test/

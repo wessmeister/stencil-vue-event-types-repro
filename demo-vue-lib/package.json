@@ -1,0 +1,21 @@
+{
+  "name": "demo-vue-lib",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "demo-stencil-lib": "file:../demo-stencil-lib",
+    "@stencil/vue-output-target": "file:../forked-vue-output-target"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.2.0",
+    "vue": "^3.2.0"
+  }
+}
